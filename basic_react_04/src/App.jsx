@@ -1,9 +1,10 @@
 import ChangePerson from "./components/ChangePerson";
+import Namaste from "./components/Namaste";
 
 function App() {
   return (
     <>
-      <ChangePerson name="Prakhar Singh"/>
+      <Namaste name="Prakhar Singh"/>
     </>
   )
 }
