@@ -17,24 +17,10 @@ import {Dog, Cat}from "./components/Animals";
 
 
 function App() {
-
-  const arr1 = [
-  {name: "dog1", age: 10, color: 'black'},
-  {name: "dog2", age: 11, color: 'blue'},
-  {name: "dog3", age: 12, color: 'beige'},
-  {name: "dog4", age: 13, color: 'brown'},
-  {name: "dog5", age: 14, color: 'bronze'}
-]
-
-const arr2 = [
-  {name: 'cat1', color:'brown'},
-  {name: 'cat2', color:'black'},
-]
   return (
     <>
-      <Dog object={arr1}/>
-      <br />
-      <Cat object={arr2}/> 
+      <PackedItems/>
+    
     </>
   )
 }
